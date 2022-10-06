@@ -1,8 +1,8 @@
 terraform {
   backend "s3" {
-    bucket = "mydev-tf-state-bucket"
+    bucket = "mybucket12345556667788"
     key = "main"
     region = "us-east-2"
-    dynamodb_table = "my-dynamodb-table"
+    dynamodb_table = "terraform-lock"
   }
 }
